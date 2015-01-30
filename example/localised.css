@@ -1,0 +1,35 @@
+/* general, "normal" CSS */
+@media only screen and (min-width: 600px) {
+    .main, .sidebar {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .main {
+        width: 70%;
+    }
+}
+
+.list {
+    font-style: italic;
+}
+
+.list li {
+    display: block;
+}
+
+@media only local and (min-width: 400px) {
+    .list li {
+        display: inline;
+    }
+
+    .main .list li {
+        color: red;
+    }
+}
+
+@media only local and (min-width: 400px) {
+    .subscribe .list li {
+        color: lime;
+    }
+}
