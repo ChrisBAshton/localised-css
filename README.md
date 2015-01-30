@@ -1,6 +1,8 @@
 # Localised CSS
 
-A work in progress. But the idea is this:
+I've written an extensive [blog post justifying localised CSS](http://ashton.codes/blog/localised-css/) (scheduled for February 4th). Read that as an introduction.
+
+This is a work in progress. But the idea is this:
 
 ```css
 .list li {
@@ -14,7 +16,7 @@ A work in progress. But the idea is this:
 }
 ```
 
-This would make the `.list li` list items display inline when the `.list` container element is at least 400px wide. You can see this in the example (use a reasonably desktop/tablet screen). The list under `.main` is displayed inline, but the list under `.sidebar` is displayed as a block.
+This would make the `.list li` list items display inline when the `.list` container element is at least 400px wide. You can see this in the example (use a reasonably wide desktop/tablet screen). The list under `.main` is displayed inline, but the list under `.sidebar` is displayed as a block.
 
 Just include the script (and jQuery - we have a jQuery dependency at the moment):
 
