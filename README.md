@@ -14,6 +14,8 @@ A work in progress. But the idea is this:
 }
 ```
 
+This would make the `.list li` list items display inline when the `.list` container element is at least 400px wide. You can see this in the example (use a reasonably desktop/tablet screen). The list under `.main` is displayed inline, but the list under `.sidebar` is displayed as a block.
+
 Just include the script (and jQuery - we have a jQuery dependency at the moment):
 
 `<script src="localised-css.min.js"></script>`
